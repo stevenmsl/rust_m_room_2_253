@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust_m_room_2_253'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust_m_room_2_253",
+                    "--package=rust_m_room_2_253"
+                ],
+                "filter": {
+                    "name": "rust_m_room_2_253",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
